@@ -1,0 +1,154 @@
+body {
+  background-color: #37988e;
+  margin: 0;
+  margin-top: 10px;
+  margin-left: 5%;
+  margin-bottom: 10px;
+  margin-right: 5%;
+  grid-template-columns: auto;
+  grid-template-rows: auto 5%;
+  grid-template-areas: "header" "body" "footer";
+}
+
+footer {
+  background: white;
+  grid-area: footer;
+}
+
+footer ul {
+  list-style-type: none;
+  display: grid;
+  list-style-type: none;
+  margin: 0;
+  padding: 2em;
+}
+
+footer ul li {
+  padding: 2em;
+  display: grid;
+  text-indent: 5px;
+  text-align: justify;
+  letter-spacing: 0, 5px;
+}
+
+footer ul li span {
+  text-align: center;
+}
+
+footer ul li span:hover {
+  display: block;
+  color: white;
+  background: #37988e;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 70% auto;
+  padding: 40px;
+  grid-area: body;
+}
+
+@media screen and (min-width: 640px) {
+  body {
+    font-family: "source sans pro";
+    background: #37988e;
+    margin: 0;
+    color: white;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto 5%;
+    margin-top: 10px;
+    margin-left: 5%;
+    margin-bottom: 10px;
+    margin-right: 5%;
+    grid-template-columns: auto;
+    grid-template-rows: auto 5%;
+    grid-template-areas: "header" "body" "footer";
+  }
+
+  header {
+    background: bisque;
+    grid-area: header;
+    font-family: "source sans pro";
+    font-size: 25px;
+    text-align: right;
+  }
+
+  header div {
+    font-family: "source sans pro";
+    font-size: 30px;
+    color: black;
+    background: bisque;
+    border: black;
+  }
+
+  header div h1 {
+    font-family: "source sans pro";
+    font-size: 60px;
+    margin-block-end: 20px;
+    text-align: left;
+  }
+
+  header div p {
+    font-family: "source sans pro";
+    font-size: 20px;
+    text-align: left;
+  }
+
+  footer {
+    background: lavender;
+    grid-area: footer;
+  }
+
+  footer ul {
+    display: grid;
+    list-style-type: none;
+    margin: 0;
+    padding: 2em;
+    grid-template-columns: repeat(3, auto);
+    grid-template-rows: repeat(6, auto);
+    color: black;
+    font-size: 15px;
+  }
+
+  footer li {
+    padding: 5em;
+    display: grid;
+    font-size: 20px;
+    text-align: justify;
+    letter-spacing: 0, 5px;
+  }
+
+  footer li span {
+    font-family: "source sans pro";
+    display: grid;
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+  }
+
+  footer li span:hover {
+    display: block;
+    color: white;
+    background: black;
+  }
+}
+.gambar_slide figure div {
+  width: 20%;
+  float: center;
+}
+
+.gambar_slide figure img {
+  width: 80%;
+  float: center;
+}
+
+.gambar_slide figure {
+  position: relative;
+  width: 500%;
+  margin: 0;
+  left: 0;
+  animation: 20s slidy infinite;
+}
+
+/*# sourceMappingURL=menu.css.map */
