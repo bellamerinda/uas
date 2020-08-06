@@ -1,0 +1,50 @@
+[
+    {
+        "id" : 1,
+        "img" : "/images/baru1.jpg"
+    },
+    {
+        "id" : 2,
+        "img" : "/images/baru2.jpg"
+    },
+    {
+        "id" : 3,
+        "img" : "/images/baru3.jpg"
+    },
+    {
+        "id" : 4,
+        "img" : "/images/baru4.jpg"
+    },
+    {
+        "id" : 5,
+        "img" : "/images/baru5.jpg"
+    },
+    {
+        "id" : 6,
+        "img" : "/images/baru6.jpg"
+    },
+    {
+        "id" : 7,
+        "img" : "/images/baru7.jpg"
+    },
+    {
+        "id" : 8,
+        "img" : "/images/baru8.jpg"
+    },
+    {
+        "id" : 9,
+        "img" : "/images/baru9.jpg"
+    },
+    {
+        "id" : 10,
+        "img" : "/images/baru10.jpg"
+    },
+    {
+        "id" : 11,
+        "img" : "/images/baru11.jpg"
+    },
+    {
+        "id" : 12,
+        "img" : "/images/feed.jpg"
+    }
+]

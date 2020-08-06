@@ -5,8 +5,8 @@ export default function Beranda(){
     return (
         <div>
             <Header/>
-            <center><p className ="title is-2">Chocolate Lava</p>
-            <p className="subtitle is-6">Chocolate lava adalah makanan dessert yang menjamin anda  ingin mencobanya karena lumer dari coklat.</p>
+            <center><p class ="title is-2">Chocolate Lava</p>
+            <p class="subtitle is-6">Chocolate lava adalah makanan dessert yang menjamin anda  ingin mencobanya karena lumer dari coklat.</p>
             <div class="columns is-mobile">
                     <div class ="column"><p class="bd-notification is-info"><img src="/images/baru1.jpg" width="250"/></p>
                     </div>
@@ -70,3 +70,4 @@ export default function Beranda(){
         </div>
     )
 }
+
